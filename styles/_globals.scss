@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Libre+Franklin:wght@300;600;800&display=swap');
+$mainColor: #5ab963;
+$mainColorHover: hsl(126, 40%, 40%);
+$secColor: #b3b3b3;
+
+$maxWidth: 1170px;
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

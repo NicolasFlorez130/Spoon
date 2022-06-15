@@ -1,0 +1,17 @@
+@mixin tablet {
+    @media only screen and (max-width: 820px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin phoneChikito {
+    @media only screen and (max-width: 375px) {
+        @content;
+    }
+}
